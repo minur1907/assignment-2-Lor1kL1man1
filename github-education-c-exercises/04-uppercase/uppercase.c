@@ -6,9 +6,16 @@
 int main(void)
 {
     string s = get_string("Before: ");
-    printf("After: ");
+    printf("After:  ");
+
+    for (int i = 0, n = strlen(s); i < n; i++)
+    {
+        printf("%c", toupper(s[i]));
+    }
+
 
     // TODO: loop through the string and print toupper(...) for each char
-
-    printf("\n");
+ printf("\n");
 }
+
+    
