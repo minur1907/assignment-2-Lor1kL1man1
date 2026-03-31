@@ -12,6 +12,15 @@ int main(void)
 
 int string_length(string s)
 {
+    
+    int n = 0;
+
+    
+    while (s[n] != '\0')
+    {
+        n++;
+    }
+
     // TODO: count chars until '\0'
     return 0;
 }
